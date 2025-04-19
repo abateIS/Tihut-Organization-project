@@ -16,8 +16,10 @@ function Home() {
   }, []);
 
   return (
-    <div     className="h-screen bg-cover bg-center"
-    style={{ backgroundImage: `url(${childBg})` }}>  
+    <div    className="bg-cover bg-center bg-no-repeat text-white py-15"
+    style={{
+      backgroundImage: "url('/src/assets/child-bg.png')"
+    }}>  
       {/* Hero Section */}
       
       <div className="relative  h-[500px]">
