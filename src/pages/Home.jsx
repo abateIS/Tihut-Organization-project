@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { FaGraduationCap, FaHandHoldingHeart, FaLightbulb } from 'react-icons/fa';
-import { X } from 'lucide-react';
+import childBg from '../assets/child-bg.png';
 
+import { X } from 'lucide-react';
 function Home() {
   const [showDonateModal, setShowDonateModal] = useState(false);
 
@@ -18,7 +19,7 @@ function Home() {
   return (
     <div    className="bg-cover bg-center bg-no-repeat text-white py-15"
     style={{
-      backgroundImage: "url('/src/assets/child-bg.png')"
+      backgroundImage: `url(${childBg})` // ✅ Backticks let JS evaluate the variable
     }}>  
       {/* Hero Section */}
       
