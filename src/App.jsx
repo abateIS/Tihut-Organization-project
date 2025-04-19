@@ -5,7 +5,6 @@ import About from './pages/About';
 import Programs from './pages/Programs';
 import Contact from './pages/Contact';
 import logo from './assets/logo.png';
-import childBg from './assets/child-bg.png';
 import { X,Menu } from 'lucide-react';
 
 function App() {
